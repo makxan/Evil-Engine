@@ -1,0 +1,128 @@
+TTestFramework
+v7
+r0
+t319732830.858802
+cCheck dependencies
+cCompileC build/GL.build/Debug-iphoneos/TestFramework.build/Objects-normal/armv6/test.o /Users/jmarcus/repos/kandidatprojekt/trunk/test.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestingKit.h
+c000000004CC11AC600000000000008A5
+t1287723718
+s2213
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/TestFramework.octest
+t2
+s0
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/TestFramework.octest.dSYM
+t2
+s0
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/TestFramework.octest/Info.plist
+t2
+s0
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/TestFramework.octest/TestFramework
+t2
+s0
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/TestFramework.build/Objects-normal/armv6/TestFramework
+t2
+s0
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/TestFramework.build/Objects-normal/armv6/TestFramework.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/TestFramework.build/Objects-normal/armv6/test.o
+t1298040030
+s15584
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/TestFramework.build/Objects-normal/armv7/TestFramework
+t2
+s0
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/TestFramework.build/Objects-normal/armv7/TestFramework.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/TestFramework.build/Objects-normal/armv7/test.o
+t2
+s0
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/TestFramework.build/Script-8C837D0F130EB44900CBD757.sh
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/test.h
+c000000004D5E7EE50000000000000384
+t1298038501
+s900
+i<SenTestingKit/SenTestingKit.h>
+i<UIKit/UIKit.h>
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/test.m
+c000000004D5E7EE500000000000002BD
+t1298038501
+s701
+i"test.h"
+
+NTestFramework-Info.plist
+c000000004D5E7CC90000000000000281
+t1298037961
+s641
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies319732829#319732830#0(0"0(0#1#0"8245933023748256768#0"0#
+
+CCompileC build/GL.build/Debug-iphoneos/TestFramework.build/Objects-normal/armv6/test.o /Users/jmarcus/repos/kandidatprojekt/trunk/test.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319732830.042010
+e319732830.858737
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/TestFramework.build/Objects-normal/armv6/test.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/test.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/test.m319732830#319732830#0(0"0(0#0#49"/Users/jmarcus/repos/kandidatprojekt/trunk/test.m7886488416478786560#1819"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/TestFramework.build/TestFramework-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/TestFramework.build/TestFramework-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/TestFramework.build/TestFramework-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/TestFramework.build/TestFramework-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -F/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Developer/Library/Frameworks -F/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Developer/Library/Frameworks -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/TestFramework.build/DerivedSources/armv6 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/TestFramework.build/DerivedSources -c /Users/jmarcus/repos/kandidatprojekt/trunk/test.m -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/TestFramework.build/Objects-normal/armv6/test.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/TestFramework.build/Objects-normal/armv7/test.o /Users/jmarcus/repos/kandidatprojekt/trunk/test.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCreateUniversalBinary /Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/TestFramework.octest/TestFramework normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile /Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/TestFramework.octest.dSYM /Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/TestFramework.octest/TestFramework
+r0
+
+CLd /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/TestFramework.build/Objects-normal/armv6/TestFramework normal armv6
+r0
+
+CLd /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/TestFramework.build/Objects-normal/armv7/TestFramework normal armv7
+r0
+
+CPhaseScriptExecution "Run Script" /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/TestFramework.build/Script-8C837D0F130EB44900CBD757.sh
+r0
+
+CProcessInfoPlistFile /Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/TestFramework.octest/Info.plist TestFramework-Info.plist
+r0
+
+CTouch /Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/TestFramework.octest
+r0
+

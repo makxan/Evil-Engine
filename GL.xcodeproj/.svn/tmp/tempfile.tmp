@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* GLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* GLAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2514C27B10084DCA00A42282 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2514C27910084DCA00A42282 /* Shader.fsh */; };
+		2514C27C10084DCA00A42282 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2514C27A10084DCA00A42282 /* Shader.vsh */; };
+		28EC4C5911D54ECE0027AA9F /* GLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EC4C5711D54ECE0027AA9F /* GLViewController.m */; };
+		28FD14FE0DC6FC130079059D /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FD14FD0DC6FC130079059D /* EAGLView.m */; };
+		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
+		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
+		2F785F73131274FA00763FC7 /* textureTest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2F785F72131274FA00763FC7 /* textureTest.jpg */; };
+		2F785F761312751000763FC7 /* GLTextureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F785F751312751000763FC7 /* GLTextureManager.m */; };
+		2F7FA5F712FD7B3900FC14BB /* Matrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 2F7FA5F612FD7B3900FC14BB /* Matrix.c */; };
+		2FAB857C13118E9800974B47 /* CollisionContact.c in Sources */ = {isa = PBXBuildFile; fileRef = 2FAB857B13118E9800974B47 /* CollisionContact.c */; };
+		2FAB858113118ED300974B47 /* CollisionDetection.c in Sources */ = {isa = PBXBuildFile; fileRef = 2FAB858013118ED300974B47 /* CollisionDetection.c */; };
+		2FAB85DE13119F1500974B47 /* CollisionContact.c in Sources */ = {isa = PBXBuildFile; fileRef = 2FAB857B13118E9800974B47 /* CollisionContact.c */; };
+		2FAB85DF13119F2000974B47 /* CollisionDetection.c in Sources */ = {isa = PBXBuildFile; fileRef = 2FAB858013118ED300974B47 /* CollisionDetection.c */; };
+		2FAB85E013119F2B00974B47 /* Matrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 2F7FA5F612FD7B3900FC14BB /* Matrix.c */; };
+		2FAB85E113119F2B00974B47 /* Vector.c in Sources */ = {isa = PBXBuildFile; fileRef = 37A64B7912FD8CEC005C6A4D /* Vector.c */; };
+		2FAB85E213119F3100974B47 /* Shape.c in Sources */ = {isa = PBXBuildFile; fileRef = 2FCF668F130EA5B7003EF37A /* Shape.c */; };
+		2FAB86241311A25600974B47 /* CollisionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FAB86231311A25600974B47 /* CollisionTests.m */; };
+		2FAB864C1311A27E00974B47 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683408BB130DB6250018043E /* Accelerate.framework */; };
+		2FCF6650130EA0B5003EF37A /* LinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 2FCF664E130EA0B5003EF37A /* LinkedList.c */; };
+		2FCF6690130EA5B7003EF37A /* Shape.c in Sources */ = {isa = PBXBuildFile; fileRef = 2FCF668F130EA5B7003EF37A /* Shape.c */; };
+		37A64B7412FD8A5B005C6A4D /* Particle.c in Sources */ = {isa = PBXBuildFile; fileRef = 37A64B7312FD8A5B005C6A4D /* Particle.c */; };
+		37A64B7A12FD8CEC005C6A4D /* Vector.c in Sources */ = {isa = PBXBuildFile; fileRef = 37A64B7912FD8CEC005C6A4D /* Vector.c */; };
+		668B276912FC12840056458D /* GLShaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 668B276812FC12840056458D /* GLShaderManager.m */; };
+		66E6155C13097B2500E5AF54 /* ForceGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E6155B13097B2500E5AF54 /* ForceGenerator.m */; };
+		680125C712F8889B00F55E66 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 680125C612F8889B00F55E66 /* GameViewController.m */; };
+		680125E012F88AD400F55E66 /* GLShader.m in Sources */ = {isa = PBXBuildFile; fileRef = 680125DD12F88AD400F55E66 /* GLShader.m */; };
+		680125E112F88AD400F55E66 /* GLTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 680125DF12F88AD400F55E66 /* GLTexture.m */; };
+		680125FB12F88E1400F55E66 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 680125FA12F88E1400F55E66 /* CoreGraphics.framework */; };
+		681EF7AF1302917400A21AE6 /* Collision.c in Sources */ = {isa = PBXBuildFile; fileRef = 681EF7AE1302917400A21AE6 /* Collision.c */; };
+		683408BC130DB6250018043E /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683408BB130DB6250018043E /* Accelerate.framework */; };
+		684B84C4130E904000FF88B7 /* CollideRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 684B84C3130E904000FF88B7 /* CollideRegister.m */; };
+		68B36EAD13127C7E00B9869D /* Matrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 2F7FA5F612FD7B3900FC14BB /* Matrix.c */; };
+		68B36EAE13127C7E00B9869D /* Vector.c in Sources */ = {isa = PBXBuildFile; fileRef = 37A64B7912FD8CEC005C6A4D /* Vector.c */; };
+		68B36EB113127CA900B9869D /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683408BB130DB6250018043E /* Accelerate.framework */; };
+		68B36EBC13127D1800B9869D /* MatrixVectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B36E8713127BC600B9869D /* MatrixVectorTests.m */; };
+		68D5E65613033AFC004651C6 /* RigidBody.c in Sources */ = {isa = PBXBuildFile; fileRef = 68D5E65513033AFC004651C6 /* RigidBody.c */; };
+		68DADBAF12FBF87A0017E194 /* BehaveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DADBA812FBF87A0017E194 /* BehaveModel.m */; };
+		68DADBB012FBF87A0017E194 /* Mesh.c in Sources */ = {isa = PBXBuildFile; fileRef = 68DADBA912FBF87A0017E194 /* Mesh.c */; };
+		68DADBB112FBF87A0017E194 /* MeshModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DADBAC12FBF87A0017E194 /* MeshModel.m */; };
+		68DADBB212FBF87A0017E194 /* ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DADBAE12FBF87A0017E194 /* ViewModel.m */; };
+		68DADBBB12FBF8CD0017E194 /* GameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DADBBA12FBF8CD0017E194 /* GameObject.m */; };
+		68DADC2912FBFFC70017E194 /* InputController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DADC2812FBFFC70017E194 /* InputController.m */; };
+		8C837DBC130EC50C00CBD757 /* LogicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C837DBB130EC50C00CBD757 /* LogicTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* GLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* GLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* GL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2514C27910084DCA00A42282 /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		2514C27A10084DCA00A42282 /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		28EC4C5611D54ECE0027AA9F /* GLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLViewController.h; sourceTree = "<group>"; };
+		28EC4C5711D54ECE0027AA9F /* GLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLViewController.m; sourceTree = "<group>"; };
+		28FD14FC0DC6FC130079059D /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		28FD14FD0DC6FC130079059D /* EAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		28FD14FF0DC6FC520079059D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		28FD15070DC6FC5B0079059D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F55406612FC157A00B1CA94 /* Drawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drawable.h; sourceTree = "<group>"; };
+		2F785F72131274FA00763FC7 /* textureTest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = textureTest.jpg; sourceTree = "<group>"; };
+		2F785F741312751000763FC7 /* GLTextureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTextureManager.h; sourceTree = "<group>"; };
+		2F785F751312751000763FC7 /* GLTextureManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLTextureManager.m; sourceTree = "<group>"; };
+		2F7FA5F612FD7B3900FC14BB /* Matrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Matrix.c; sourceTree = "<group>"; };
+		2FAB857A13118E9800974B47 /* CollisionContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollisionContact.h; sourceTree = "<group>"; };
+		2FAB857B13118E9800974B47 /* CollisionContact.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CollisionContact.c; sourceTree = "<group>"; };
+		2FAB857F13118ED300974B47 /* CollisionDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollisionDetection.h; sourceTree = "<group>"; };
+		2FAB858013118ED300974B47 /* CollisionDetection.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CollisionDetection.c; sourceTree = "<group>"; };
+		2FAB85D813119E2100974B47 /* CollisionDetectionTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollisionDetectionTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FAB85D913119E2100974B47 /* CollisionDetectionTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CollisionDetectionTest-Info.plist"; sourceTree = "<group>"; };
+		2FAB86221311A25600974B47 /* CollisionTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollisionTests.h; sourceTree = "<group>"; };
+		2FAB86231311A25600974B47 /* CollisionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollisionTests.m; sourceTree = "<group>"; };
+		2FCF664E130EA0B5003EF37A /* LinkedList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LinkedList.c; sourceTree = "<group>"; };
+		2FCF664F130EA0B5003EF37A /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		2FCF668E130EA5B7003EF37A /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		2FCF668F130EA5B7003EF37A /* Shape.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Shape.c; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* GL_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GL_Prefix.pch; sourceTree = "<group>"; };
+		37A64B6612FD8A0C005C6A4D /* Particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Particle.h; sourceTree = "<group>"; };
+		37A64B7312FD8A5B005C6A4D /* Particle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Particle.c; sourceTree = "<group>"; };
+		37A64B7912FD8CEC005C6A4D /* Vector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Vector.c; sourceTree = "<group>"; };
+		668B276712FC12840056458D /* GLShaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLShaderManager.h; sourceTree = "<group>"; };
+		668B276812FC12840056458D /* GLShaderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLShaderManager.m; sourceTree = "<group>"; };
+		66E6155A13097B2500E5AF54 /* ForceGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForceGenerator.h; sourceTree = "<group>"; };
+		66E6155B13097B2500E5AF54 /* ForceGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForceGenerator.m; sourceTree = "<group>"; };
+		680125C512F8889B00F55E66 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		680125C612F8889B00F55E66 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		680125CE12F88A4200F55E66 /* GLCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLCommon.h; sourceTree = "<group>"; };
+		680125CF12F88A4200F55E66 /* Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix.h; sourceTree = "<group>"; };
+		680125D012F88A4200F55E66 /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
+		680125DC12F88AD400F55E66 /* GLShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLShader.h; sourceTree = "<group>"; };
+		680125DD12F88AD400F55E66 /* GLShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLShader.m; sourceTree = "<group>"; };
+		680125DE12F88AD400F55E66 /* GLTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTexture.h; sourceTree = "<group>"; };
+		680125DF12F88AD400F55E66 /* GLTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLTexture.m; sourceTree = "<group>"; };
+		680125FA12F88E1400F55E66 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		681EF7AD1302917400A21AE6 /* Collision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Collision.h; sourceTree = "<group>"; };
+		681EF7AE1302917400A21AE6 /* Collision.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Collision.c; sourceTree = "<group>"; };
+		683408BB130DB6250018043E /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		684B84C3130E904000FF88B7 /* CollideRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollideRegister.m; sourceTree = "<group>"; };
+		684B84C5130E905400FF88B7 /* CollideRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollideRegister.h; sourceTree = "<group>"; };
+		684B84C6130E907600FF88B7 /* Collidable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Collidable.h; sourceTree = "<group>"; };
+		68B36E8613127BC600B9869D /* MatrixVectorTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatrixVectorTests.h; sourceTree = "<group>"; };
+		68B36E8713127BC600B9869D /* MatrixVectorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatrixVectorTests.m; sourceTree = "<group>"; };
+		68B36E8F13127C0B00B9869D /* LinearAlgebraTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinearAlgebraTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B36E9013127C0B00B9869D /* LinearAlgebraTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LinearAlgebraTest-Info.plist"; sourceTree = "<group>"; };
+		68D5E65413033AFC004651C6 /* RigidBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RigidBody.h; sourceTree = "<group>"; };
+		68D5E65513033AFC004651C6 /* RigidBody.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = RigidBody.c; sourceTree = "<group>"; };
+		68DADBA712FBF87A0017E194 /* BehaveModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BehaveModel.h; sourceTree = "<group>"; };
+		68DADBA812FBF87A0017E194 /* BehaveModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BehaveModel.m; sourceTree = "<group>"; };
+		68DADBA912FBF87A0017E194 /* Mesh.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Mesh.c; sourceTree = "<group>"; };
+		68DADBAA12FBF87A0017E194 /* Mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mesh.h; sourceTree = "<group>"; };
+		68DADBAB12FBF87A0017E194 /* MeshModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeshModel.h; sourceTree = "<group>"; };
+		68DADBAC12FBF87A0017E194 /* MeshModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeshModel.m; sourceTree = "<group>"; };
+		68DADBAD12FBF87A0017E194 /* ViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewModel.h; sourceTree = "<group>"; };
+		68DADBAE12FBF87A0017E194 /* ViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewModel.m; sourceTree = "<group>"; };
+		68DADBB912FBF8CD0017E194 /* GameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameObject.h; sourceTree = "<group>"; };
+		68DADBBA12FBF8CD0017E194 /* GameObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameObject.m; sourceTree = "<group>"; };
+		68DADC2712FBFFC70017E194 /* InputController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputController.h; sourceTree = "<group>"; };
+		68DADC2812FBFFC70017E194 /* InputController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputController.m; sourceTree = "<group>"; };
+		8C837D12130EB44900CBD757 /* TestFramework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestFramework-Info.plist"; sourceTree = "<group>"; };
+		8C837D6D130EC0BD00CBD757 /* Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test-Info.plist"; sourceTree = "<group>"; };
+		8C837DB3130EC4DE00CBD757 /* LogicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C837DB4130EC4DE00CBD757 /* LogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LogicTests-Info.plist"; sourceTree = "<group>"; };
+		8C837DBA130EC50C00CBD757 /* LogicTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogicTests.h; sourceTree = "<group>"; };
+		8C837DBB130EC50C00CBD757 /* LogicTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogicTests.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* GL-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GL-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */,
+				28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */,
+				680125FB12F88E1400F55E66 /* CoreGraphics.framework in Frameworks */,
+				683408BC130DB6250018043E /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FAB85D513119E2100974B47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FAB864C1311A27E00974B47 /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B36E8C13127C0B00B9869D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B36EB113127CA900B9869D /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2FAB861A1311A20A00974B47 /* Tests */,
+				2FCF6651130EA0BA003EF37A /* Datatypes */,
+				6804FA4412FD822D00AC2329 /* Graphics */,
+				6804FA4312FD822100AC2329 /* Physics */,
+				68DADBB912FBF8CD0017E194 /* GameObject.h */,
+				68DADBBA12FBF8CD0017E194 /* GameObject.m */,
+				68DADBA712FBF87A0017E194 /* BehaveModel.h */,
+				68DADBA812FBF87A0017E194 /* BehaveModel.m */,
+				68DADBA912FBF87A0017E194 /* Mesh.c */,
+				68DADBAA12FBF87A0017E194 /* Mesh.h */,
+				68DADBAB12FBF87A0017E194 /* MeshModel.h */,
+				68DADBAC12FBF87A0017E194 /* MeshModel.m */,
+				680125CF12F88A4200F55E66 /* Matrix.h */,
+				2F7FA5F612FD7B3900FC14BB /* Matrix.c */,
+				37A64B7912FD8CEC005C6A4D /* Vector.c */,
+				680125D012F88A4200F55E66 /* Vector.h */,
+				1D3623240D0F684500981E51 /* GLAppDelegate.h */,
+				1D3623250D0F684500981E51 /* GLAppDelegate.m */,
+				680125C512F8889B00F55E66 /* GameViewController.h */,
+				680125C612F8889B00F55E66 /* GameViewController.m */,
+				68DADC2712FBFFC70017E194 /* InputController.h */,
+				68DADC2812FBFFC70017E194 /* InputController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* GL.app */,
+				2FAB85D813119E2100974B47 /* CollisionDetectionTest.octest */,
+				68B36E8F13127C0B00B9869D /* LinearAlgebraTest.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2514C27610084DB600A42282 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				2514C27910084DCA00A42282 /* Shader.fsh */,
+				2514C27A10084DCA00A42282 /* Shader.vsh */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				2F785F71131274E800763FC7 /* Textures */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				2514C27610084DB600A42282 /* Shaders */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				2FAB85D913119E2100974B47 /* CollisionDetectionTest-Info.plist */,
+				68B36E9013127C0B00B9869D /* LinearAlgebraTest-Info.plist */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* GL_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* GL-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28FD15070DC6FC5B0079059D /* QuartzCore.framework */,
+				28FD14FF0DC6FC520079059D /* OpenGLES.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				680125FA12F88E1400F55E66 /* CoreGraphics.framework */,
+				683408BB130DB6250018043E /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F785F71131274E800763FC7 /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				2F785F72131274FA00763FC7 /* textureTest.jpg */,
+			);
+			name = Textures;
+			sourceTree = "<group>";
+		};
+		2FAB861A1311A20A00974B47 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2FAB86221311A25600974B47 /* CollisionTests.h */,
+				2FAB86231311A25600974B47 /* CollisionTests.m */,
+				68B36E8613127BC600B9869D /* MatrixVectorTests.h */,
+				68B36E8713127BC600B9869D /* MatrixVectorTests.m */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		2FCF6651130EA0BA003EF37A /* Datatypes */ = {
+			isa = PBXGroup;
+			children = (
+				2FCF664F130EA0B5003EF37A /* LinkedList.h */,
+				2FCF664E130EA0B5003EF37A /* LinkedList.c */,
+			);
+			name = Datatypes;
+			sourceTree = "<group>";
+		};
+		6804FA4312FD822100AC2329 /* Physics */ = {
+			isa = PBXGroup;
+			children = (
+				2FAB857F13118ED300974B47 /* CollisionDetection.h */,
+				2FAB858013118ED300974B47 /* CollisionDetection.c */,
+				2FAB857A13118E9800974B47 /* CollisionContact.h */,
+				2FAB857B13118E9800974B47 /* CollisionContact.c */,
+				681EF7AD1302917400A21AE6 /* Collision.h */,
+				681EF7AE1302917400A21AE6 /* Collision.c */,
+				2FCF668E130EA5B7003EF37A /* Shape.h */,
+				2FCF668F130EA5B7003EF37A /* Shape.c */,
+				684B84C6130E907600FF88B7 /* Collidable.h */,
+				684B84C5130E905400FF88B7 /* CollideRegister.h */,
+				684B84C3130E904000FF88B7 /* CollideRegister.m */,
+				66E6155A13097B2500E5AF54 /* ForceGenerator.h */,
+				66E6155B13097B2500E5AF54 /* ForceGenerator.m */,
+				37A64B6612FD8A0C005C6A4D /* Particle.h */,
+				37A64B7312FD8A5B005C6A4D /* Particle.c */,
+				68D5E65413033AFC004651C6 /* RigidBody.h */,
+				68D5E65513033AFC004651C6 /* RigidBody.c */,
+			);
+			name = Physics;
+			sourceTree = "<group>";
+		};
+		6804FA4412FD822D00AC2329 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				2F785F741312751000763FC7 /* GLTextureManager.h */,
+				2F785F751312751000763FC7 /* GLTextureManager.m */,
+				2F55406612FC157A00B1CA94 /* Drawable.h */,
+				68DADBAD12FBF87A0017E194 /* ViewModel.h */,
+				68DADBAE12FBF87A0017E194 /* ViewModel.m */,
+				680125CE12F88A4200F55E66 /* GLCommon.h */,
+				680125DC12F88AD400F55E66 /* GLShader.h */,
+				680125DD12F88AD400F55E66 /* GLShader.m */,
+				680125DE12F88AD400F55E66 /* GLTexture.h */,
+				680125DF12F88AD400F55E66 /* GLTexture.m */,
+				28FD14FC0DC6FC130079059D /* EAGLView.h */,
+				28FD14FD0DC6FC130079059D /* EAGLView.m */,
+				28EC4C5611D54ECE0027AA9F /* GLViewController.h */,
+				28EC4C5711D54ECE0027AA9F /* GLViewController.m */,
+				668B276712FC12840056458D /* GLShaderManager.h */,
+				668B276812FC12840056458D /* GLShaderManager.m */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		8C837DB9130EC4EC00CBD757 /* LogicTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C837DBA130EC50C00CBD757 /* LogicTests.h */,
+				8C837DBB130EC50C00CBD757 /* LogicTests.m */,
+			);
+			name = LogicTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* GL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "GL" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GL;
+			productName = GL;
+			productReference = 1D6058910D05DD3D006BFB54 /* GL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FAB85D713119E2100974B47 /* CollisionDetectionTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FAB85DC13119E2200974B47 /* Build configuration list for PBXNativeTarget "CollisionDetectionTest" */;
+			buildPhases = (
+				2FAB85D313119E2100974B47 /* Resources */,
+				2FAB85D413119E2100974B47 /* Sources */,
+				2FAB85D513119E2100974B47 /* Frameworks */,
+				2FAB85D613119E2100974B47 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollisionDetectionTest;
+			productName = CollisionDetectionTest;
+			productReference = 2FAB85D813119E2100974B47 /* CollisionDetectionTest.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		68B36E8E13127C0B00B9869D /* LinearAlgebraTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68B36E9413127C0B00B9869D /* Build configuration list for PBXNativeTarget "LinearAlgebraTest" */;
+			buildPhases = (
+				68B36E8A13127C0B00B9869D /* Resources */,
+				68B36E8B13127C0B00B9869D /* Sources */,
+				68B36E8C13127C0B00B9869D /* Frameworks */,
+				68B36E8D13127C0B00B9869D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinearAlgebraTest;
+			productName = LinearAlgebraTest;
+			productReference = 68B36E8F13127C0B00B9869D /* LinearAlgebraTest.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Chalmers Tekniska Högskola";
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "GL" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* GL */,
+				2FAB85D713119E2100974B47 /* CollisionDetectionTest */,
+				68B36E8E13127C0B00B9869D /* LinearAlgebraTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2514C27B10084DCA00A42282 /* Shader.fsh in Resources */,
+				2514C27C10084DCA00A42282 /* Shader.vsh in Resources */,
+				2F785F73131274FA00763FC7 /* textureTest.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FAB85D313119E2100974B47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B36E8A13127C0B00B9869D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FAB85D613119E2100974B47 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		68B36E8D13127C0B00B9869D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* GLAppDelegate.m in Sources */,
+				28FD14FE0DC6FC130079059D /* EAGLView.m in Sources */,
+				28EC4C5911D54ECE0027AA9F /* GLViewController.m in Sources */,
+				680125C712F8889B00F55E66 /* GameViewController.m in Sources */,
+				680125E012F88AD400F55E66 /* GLShader.m in Sources */,
+				680125E112F88AD400F55E66 /* GLTexture.m in Sources */,
+				68DADBAF12FBF87A0017E194 /* BehaveModel.m in Sources */,
+				68DADBB012FBF87A0017E194 /* Mesh.c in Sources */,
+				68DADBB112FBF87A0017E194 /* MeshModel.m in Sources */,
+				68DADBB212FBF87A0017E194 /* ViewModel.m in Sources */,
+				68DADBBB12FBF8CD0017E194 /* GameObject.m in Sources */,
+				68DADC2912FBFFC70017E194 /* InputController.m in Sources */,
+				668B276912FC12840056458D /* GLShaderManager.m in Sources */,
+				2F7FA5F712FD7B3900FC14BB /* Matrix.c in Sources */,
+				37A64B7412FD8A5B005C6A4D /* Particle.c in Sources */,
+				37A64B7A12FD8CEC005C6A4D /* Vector.c in Sources */,
+				681EF7AF1302917400A21AE6 /* Collision.c in Sources */,
+				68D5E65613033AFC004651C6 /* RigidBody.c in Sources */,
+				66E6155C13097B2500E5AF54 /* ForceGenerator.m in Sources */,
+				684B84C4130E904000FF88B7 /* CollideRegister.m in Sources */,
+				2FCF6650130EA0B5003EF37A /* LinkedList.c in Sources */,
+				2FCF6690130EA5B7003EF37A /* Shape.c in Sources */,
+				2FAB857C13118E9800974B47 /* CollisionContact.c in Sources */,
+				2FAB858113118ED300974B47 /* CollisionDetection.c in Sources */,
+				2F785F761312751000763FC7 /* GLTextureManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FAB85D413119E2100974B47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FAB85DE13119F1500974B47 /* CollisionContact.c in Sources */,
+				2FAB85DF13119F2000974B47 /* CollisionDetection.c in Sources */,
+				2FAB85E213119F3100974B47 /* Shape.c in Sources */,
+				2FAB85E013119F2B00974B47 /* Matrix.c in Sources */,
+				2FAB85E113119F2B00974B47 /* Vector.c in Sources */,
+				2FAB86241311A25600974B47 /* CollisionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B36E8B13127C0B00B9869D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B36EBC13127D1800B9869D /* MatrixVectorTests.m in Sources */,
+				68B36EAD13127C7E00B9869D /* Matrix.c in Sources */,
+				68B36EAE13127C7E00B9869D /* Vector.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GL_Prefix.pch;
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "GL-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)/SenTestingKit.framework\"",
+				);
+				PRODUCT_NAME = GL;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GL_Prefix.pch;
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "GL-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)/SenTestingKit.framework\"",
+				);
+				PRODUCT_NAME = GL;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FAB85DA13119E2200974B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "CollisionDetectionTest-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = CollisionDetectionTest;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2FAB85DB13119E2200974B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				INFOPLIST_FILE = "CollisionDetectionTest-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = CollisionDetectionTest;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		68B36E9213127C0B00B9869D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "LinearAlgebraTest-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = LinearAlgebraTest;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		68B36E9313127C0B00B9869D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				INFOPLIST_FILE = "LinearAlgebraTest-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = LinearAlgebraTest;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "GL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FAB85DC13119E2200974B47 /* Build configuration list for PBXNativeTarget "CollisionDetectionTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FAB85DA13119E2200974B47 /* Debug */,
+				2FAB85DB13119E2200974B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68B36E9413127C0B00B9869D /* Build configuration list for PBXNativeTarget "LinearAlgebraTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B36E9213127C0B00B9869D /* Debug */,
+				68B36E9313127C0B00B9869D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "GL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

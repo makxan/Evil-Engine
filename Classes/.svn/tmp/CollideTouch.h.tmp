@@ -1,0 +1,37 @@
+//
+//  CollideTouch.h
+//  GL
+//
+//  Created by Sonny Karlsson on 2/25/11.
+//  Copyright 2011 Chalmers Tekniska Högskola. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import	"Touchable.h"
+#import "Collidable.h"
+#import "Vector.h"
+<<<<<<< .mine
+#import "Collidable.h"
+#import "CollideTouch.h"
+=======
+#import "GameObject.h"
+>>>>>>> .r213
+
+@interface CollideTouch : NSObject {
+	
+	GameObject *gameObject;
+	
+	NSMutableArray *objectList;
+}
+
+@property (nonatomic, retain) GameObject *gameObject;
+
+// Add or remove object from this collision generator.
+- (void)addToRegister:(id<Collidable, Touchable>)obj;
+- (void)delFromRegister:(id<Collidable, Touchable>)obj;
+
+- (void)collideWithTouch:(Point2 *)position;
+- (void) moveWithTouch:(Point2 *)position;
+- (void) endTouch;
+
+@end

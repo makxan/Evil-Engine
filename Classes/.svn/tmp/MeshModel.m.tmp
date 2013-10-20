@@ -1,0 +1,120 @@
+//
+//  MeshModel.m
+//  Phyrax
+//
+//  Created by Sonny Karlsson on 1/31/11.
+//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//
+
+#import "MeshModel.h"
+
+// Test
+
+@implementation MeshModel
+
++ (const MeshData *)meshSquare
+{
+	static const GLfloat squareVertices[] = {	
+		-0.5f, -0.5f, 0.0f,
+		-0.5f, 0.5f, 0.0f,
+		0.5f, -0.5f, 0.0f,
+		0.5f, 0.5f, 0.0f,
+	};
+	
+	static const GLfloat squareCoords[] = {	
+		0.0f, 1.0f,
+		1.0f, 1.0f,
+		0.0f, 0.0f,
+		1.0f, 0.0f,
+	};
+	
+	static const GLubyte squareColors[] = {
+		255, 255,   0, 255,
+		255,   0, 255, 255,
+		  0, 255, 255, 255,
+		  0,   0, 255, 255,
+	};
+
+	static const MeshData squareData = {
+		3,
+		4,
+		squareVertices,
+		squareColors,
+		squareCoords,
+	};
+	
+	return &squareData;
+}
+
++ (const MeshData *)meshCircle
+{
+	GLfloat radi =	1.0f;
+	GLfloat drad = 2 * M_PI / 100;
+	
+	const float radiConst = radi*2;
+	
+	static GLfloat circleVertices[630];
+	static GLubyte circleColors[840];
+	static GLfloat circleCoords[420];
+	
+	int i = 0;
+	int cIndex = 0;
+	int vIndex = 0;
+	int coIndex = 0;
+	
+	for (; i < 105; i++)
+	{
+		cIndex = i * 8;
+		vIndex = i * 6;
+		coIndex = i * 4;
+		
+		// First vertice red
+		circleColors[cIndex]   = 255;
+		circleColors[cIndex+1] =   0;
+		circleColors[cIndex+2] =   0;
+		circleColors[cIndex+3] = 255;
+		
+		circleVertices[vIndex]   = radi * cosf(i * drad);
+		circleVertices[vIndex+1] = radi * sinf(i * drad);
+		circleVertices[vIndex+2] = 0.0f;
+		
+		circleCoords[coIndex] = circleVertices[vIndex]+radi;
+		circleCoords[coIndex+1] = circleVertices[vIndex+1]+radi;
+		
+		// Second vertice green
+		circleColors[cIndex+4] =   0;
+		circleColors[cIndex+5] = 255;
+		circleColors[cIndex+6] =   0;
+		circleColors[cIndex+7] = 255;
+				
+		circleVertices[vIndex+3] = 0.0f;
+		circleVertices[vIndex+4] = 0.0f;
+		circleVertices[vIndex+5] = 0.0f;
+		
+		circleCoords[coIndex+2] = circleVertices[vIndex+3]+radi;
+		circleCoords[coIndex+3] = circleVertices[vIndex+4]+radi;
+	}
+	
+	// Last vertice blue
+	//circleColors[80] =   0;
+	//circleColors[81] =   0;
+	//circleColors[82] = 255;
+	//circleColors[83] = 255;
+	
+	//circleVertices[60] = radi;
+	//circleVertices[61] = 0.0f;
+	//circleVertices[62] = 0.0f;
+	
+	static const MeshData circleData = {
+		3,
+		210,
+		circleVertices,
+		circleColors,
+		circleCoords,
+	};
+	
+	return &circleData;
+	
+}
+
+@end

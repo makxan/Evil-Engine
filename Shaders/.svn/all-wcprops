@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/kandidatprojekt/!svn/ver/558/trunk/Shaders
+END
+texture.fsh
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/kandidatprojekt/!svn/ver/556/trunk/Shaders/texture.fsh
+END
+texture.vsh
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/kandidatprojekt/!svn/ver/556/trunk/Shaders/texture.vsh
+END
+colour.vsh
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/kandidatprojekt/!svn/ver/558/trunk/Shaders/colour.vsh
+END
+colour.fsh
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/kandidatprojekt/!svn/ver/555/trunk/Shaders/colour.fsh
+END

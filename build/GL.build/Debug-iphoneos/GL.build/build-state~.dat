@@ -1,0 +1,1443 @@
+TGL
+v7
+r0
+t319722715.415875
+cCheck dependencies
+cCpResource build/Debug-iphoneos/GL.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app/Info.plist GL-Info.plist
+cCpResource build/Debug-iphoneos/GL.app/Shader.fsh Shaders/Shader.fsh
+cCpResource build/Debug-iphoneos/GL.app/Shader.vsh Shaders/Shader.vsh
+cProcessPCH /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-egyvizgiguhinwehmzsfevymmiim/GL_Prefix.pch.gch GL_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-eilxmxkhbbyjdogfmlcfnqrovfxl/GL_Prefix.pch.gch GL_Prefix.pch normal armv6 c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-hczqmbxlnrwjvrestyaciscrjvzw/GL_Prefix.pch.gch GL_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-fkrldifcdeuyrzefzskowqbjualr/GL_Prefix.pch.gch GL_Prefix.pch normal armv7 c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/main.o /Users/jmarcus/repos/kandidatprojekt/trunk/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GLAppDelegate.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/EAGLView.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/EAGLView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GLViewController.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GameViewController.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GameViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GLShader.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLShader.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GLTexture.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLTexture.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/BehaveModel.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/BehaveModel.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/Mesh.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Mesh.c normal armv6 c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/MeshModel.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/MeshModel.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/ViewModel.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/ViewModel.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GameObject.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GameObject.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/InputController.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GLShaderManager.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLShaderManager.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/Matrix.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Matrix.c normal armv6 c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/Particle.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Particle.c normal armv6 c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/Vector.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Vector.c normal armv6 c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/Collision.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Collision.c normal armv6 c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/RigidBody.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/RigidBody.c normal armv6 c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/ForceGenerator.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/ForceGenerator.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/main.o /Users/jmarcus/repos/kandidatprojekt/trunk/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GL normal armv6
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GLAppDelegate.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/EAGLView.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/EAGLView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GLViewController.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GameViewController.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GameViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GLShader.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLShader.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GLTexture.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLTexture.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/BehaveModel.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/BehaveModel.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/Mesh.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Mesh.c normal armv7 c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/MeshModel.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/MeshModel.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/ViewModel.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/ViewModel.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GameObject.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GameObject.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/InputController.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GLShaderManager.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLShaderManager.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/Matrix.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Matrix.c normal armv7 c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/Particle.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Particle.c normal armv7 c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/Vector.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Vector.c normal armv7 c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/Collision.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Collision.c normal armv7 c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/RigidBody.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/RigidBody.c normal armv7 c com.apple.compilers.gcc.4_2
+cCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/ForceGenerator.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/ForceGenerator.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GL normal armv7
+cCreateUniversalBinary /Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app/GL normal "armv6 armv7"
+cGenerateDSYMFile /Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app.dSYM /Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app/GL
+cProcessProductPackaging "/Users/jmarcus/Library/MobileDevice/Provisioning Profiles/C5B88C6D-20B6-4059-82DC-81CC77379D50.mobileprovision" /Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app/embedded.mobileprovision
+cTouch /Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL.xcent
+cCodeSign /Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004CC110BE000000000000094F
+t1287721150
+s2383
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004CC110BE0000000000009369
+t1287721150
+s37737
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004CC110BE0000000000003C4A
+t1287721150
+s15434
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/gl.h
+c000000004CC110BE00000000000092AA
+t1287721150
+s37546
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/glext.h
+c000000004CC110BE00000000000026AA
+t1287721150
+s9898
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004CC110CB000000000002C650
+t1287721163
+s181840
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1111C00000000000000C4
+t1287721244
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC1127D0000000000267530
+t1287721597
+s2520368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/Availability.h
+c000000004CB3FBB80000000000001ADD
+t1286863800
+s6877
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/math.h
+c000000004CB3E44400000000000004F1
+t1286857796
+s1265
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stdio.h
+c000000004CB3E4B800000000000040AC
+t1286857912
+s16556
+
+N/Users/jmarcus/Library/MobileDevice/Provisioning Profiles/54158D3E-35D0-431E-ADD2-023316B5C160.mobileprovision
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/jmarcus/Library/MobileDevice/Provisioning Profiles/C5B88C6D-20B6-4059-82DC-81CC77379D50.mobileprovision
+c000000004D5E5D3E0000000000001CF9
+t1298029886
+s7417
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/BehaveModel.h
+c000000004D5E5839000000000000019E
+t1298028601
+s414
+i<Foundation/Foundation.h>
+i"InputController.h"
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/BehaveModel.m
+c000000004D5E583900000000000007F3
+t1298028601
+s2035
+i"BehaveModel.h"
+i"GameObject.h"
+i"Collision.h"
+i<stdio.h>
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Collision.c
+c000000004D5E58390000000000001097
+t1298028601
+s4247
+i"Collision.h"
+i"Matrix.h"
+i"Vector.h"
+i<math.h>
+i<stdio.h>
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Collision.h
+c000000004D5E583900000000000005C4
+t1298028601
+s1476
+i"RigidBody.h"
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Drawable.h
+c000000004D50220000000000000001AC
+t1297097216
+s428
+i<UIKit/UIKit.h>
+i"Vector.h"
+i"Mesh.h"
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/EAGLView.h
+c000000004D5021FE00000000000003EA
+t1297097214
+s1002
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<OpenGLES/ES2/gl.h>
+i<OpenGLES/ES2/glext.h>
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/EAGLView.m
+c000000004D5022000000000000000EF0
+t1297097216
+s3824
+i<QuartzCore/QuartzCore.h>
+i"EAGLView.h"
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/ForceGenerator.h
+c000000004D5E595100000000000001F7
+t1298028881
+s503
+i<Foundation/Foundation.h>
+i"Vector.h"
+i"RigidBody.h"
+i"GameObject.h"
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/ForceGenerator.m
+c000000004D5E595100000000000002E2
+t1298028881
+s738
+i"ForceGenerator.h"
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLAppDelegate.h
+c000000004D5021FB00000000000001CE
+t1297097211
+s462
+i<UIKit/UIKit.h>
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLAppDelegate.m
+c000000004D5021FB00000000000005C7
+t1297097211
+s1479
+i"GLAppDelegate.h"
+i"GameViewController.h"
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLShader.h
+c000000004D5021FB00000000000005DD
+t1297097211
+s1501
+i<Foundation/Foundation.h>
+i<OpenGLES/ES2/gl.h>
+i<OpenGLES/ES2/glext.h>
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLShader.m
+c000000004D5021FB0000000000001572
+t1297097211
+s5490
+i"GLShader.h"
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLShaderManager.h
+c000000004D5021FB000000000000025C
+t1297097211
+s604
+i<Foundation/Foundation.h>
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLShaderManager.m
+c000000004D5021FC0000000000000964
+t1297097212
+s2404
+i"GLShaderManager.h"
+i"GLShader.h"
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLTexture.h
+c000000004D50220000000000000001F3
+t1297097216
+s499
+i<Foundation/Foundation.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLTexture.m
+c000000004D5022000000000000000A1F
+t1297097216
+s2591
+i"GLTexture.h"
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLViewController.h
+c000000004D5E58390000000000000258
+t1298028601
+s600
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<OpenGLES/ES2/gl.h>
+i<OpenGLES/ES2/glext.h>
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLViewController.m
+c000000004D5E58390000000000000961
+t1298028601
+s2401
+i<QuartzCore/QuartzCore.h>
+i"GLViewController.h"
+i"EAGLView.h"
+i"ViewModel.h"
+i"Matrix.h"
+i"Vector.h"
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GameObject.h
+c000000004D5E583900000000000009CF
+t1298028601
+s2511
+i<Foundation/Foundation.h>
+i"Mesh.h"
+i"Vector.h"
+i"Drawable.h"
+i"RigidBody.h"
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GameObject.m
+c000000004D5E58390000000000000A1B
+t1298028601
+s2587
+i"GameObject.h"
+i"MeshModel.h"
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GameViewController.h
+c000000004D50220000000000000003D1
+t1297097216
+s977
+i<UIKit/UIKit.h>
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GameViewController.m
+c000000004D5E5839000000000000149A
+t1298028601
+s5274
+i<QuartzCore/QuartzCore.h>
+i"GameViewController.h"
+i"GLViewController.h"
+i"MeshModel.h"
+i"ViewModel.h"
+i"BehaveModel.h"
+i"GameObject.h"
+i"InputController.h"
+i"Matrix.h"
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.h
+c000000004D5E58390000000000000234
+t1298028601
+s564
+i<Foundation/Foundation.h>
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m
+c000000004D5E58390000000000000D92
+t1298028601
+s3474
+i"InputController.h"
+i"GLAppDelegate.h"
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Matrix.c
+c000000004D5E58050000000000001FF6
+t1298028549
+s8182
+i"Matrix.h"
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Matrix.h
+c000000004D5E58050000000000000809
+t1298028549
+s2057
+i<OpenGLES/ES2/gl.h>
+i"Vector.h"
+i<math.h>
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Mesh.c
+c000000004D5021FC000000000000009B
+t1297097212
+s155
+i"Mesh.h"
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Mesh.h
+c000000004D5021FC0000000000000173
+t1297097212
+s371
+i<OpenGLES/ES1/gl.h>
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/MeshModel.h
+c000000004D5E58390000000000000148
+t1298028601
+s328
+i<Foundation/Foundation.h>
+i<OpenGLES/ES1/gl.h>
+i"Mesh.h"
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/MeshModel.m
+c000000004D5E58390000000000000713
+t1298028601
+s1811
+i"MeshModel.h"
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Particle.c
+c000000004D5512E700000000000004D6
+t1297421031
+s1238
+i"Particle.h"
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Particle.h
+c000000004D5512E7000000000000026F
+t1297421031
+s623
+i"Vector.h"
+i<math.h>
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/RigidBody.c
+c000000004D5E583900000000000008DB
+t1298028601
+s2267
+i"RigidBody.h"
+i"Particle.h"
+i<math.h>
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/RigidBody.h
+c000000004D5E58390000000000000335
+t1298028601
+s821
+i"Vector.h"
+i"Matrix.h"
+i<math.h>
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Vector.c
+c000000004D55167B00000000000007B3
+t1297421947
+s1971
+i"Vector.h"
+i<math.h>
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Vector.h
+c000000004D55167B000000000000043E
+t1297421947
+s1086
+i<OpenGLES/ES2/gl.h>
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/ViewModel.h
+c000000004D5E58390000000000000203
+t1298028601
+s515
+i<Foundation/Foundation.h>
+i"Drawable.h"
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/ViewModel.m
+c000000004D5E58390000000000001323
+t1298028601
+s4899
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<OpenGLES/ES2/gl.h>
+i<OpenGLES/ES2/glext.h>
+i"ViewModel.h"
+i"GLShaderManager.h"
+i"GLShader.h"
+i"Vector.h"
+i"Matrix.h"
+i"Mesh.h"
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/GL_Prefix.pch
+c000000004D502201000000000000012E
+t1297097217
+s302
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Shaders/Shader.fsh
+c000000004D5021F900000000000000E6
+t1297097209
+s230
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/Shaders/Shader.vsh
+c000000004D525BDB0000000000000204
+t1297243099
+s516
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app
+t1298029915
+s374
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app.dSYM
+t1298029915
+s102
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app/GL
+t1298029915
+s179444
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app/Info.plist
+t1298029911
+s757
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app/PkgInfo
+t1298029911
+s8
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app/ResourceRules.plist
+t1298029911
+s485
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app/Shader.fsh
+t1298029911
+s230
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app/Shader.vsh
+t1298029911
+s516
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app/embedded.mobileprovision
+t1298029915
+s7417
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL.xcent
+t1298029915
+s410
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/BehaveModel.o
+t1298029913
+s15268
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/Collision.o
+t1298029913
+s7836
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/EAGLView.o
+t1298029913
+s48616
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/ForceGenerator.o
+t1298029913
+s12432
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GL
+t1298029914
+s93428
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GL.LinkFileList
+c000000004D5E5D570000000000000911
+t1298029911
+s2321
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GLAppDelegate.o
+t1298029913
+s52740
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GLShader.o
+t1298029913
+s20748
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GLShaderManager.o
+t1298029913
+s14800
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GLTexture.o
+t1298029913
+s17296
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GLViewController.o
+t1298029913
+s47396
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GameObject.o
+t1298029913
+s19524
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GameViewController.o
+t1298029913
+s59560
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/InputController.o
+t1298029913
+s56244
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/Matrix.o
+t1298029913
+s13424
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/Mesh.o
+t1298029913
+s1660
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/MeshModel.o
+t1298029913
+s8700
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/Particle.o
+t1298029913
+s1560
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/RigidBody.o
+t1298029913
+s5792
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/Vector.o
+t1298029913
+s6300
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/ViewModel.o
+t1298029913
+s20260
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/main.o
+t1298029913
+s6764
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/BehaveModel.o
+t1298029914
+s14688
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/Collision.o
+t1298029914
+s7288
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/EAGLView.o
+t1298029914
+s47488
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/ForceGenerator.o
+t1298029914
+s12036
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GL
+t1298029915
+s81140
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GL.LinkFileList
+c000000004D5E5D570000000000000911
+t1298029911
+s2321
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GLAppDelegate.o
+t1298029914
+s52096
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GLShader.o
+t1298029914
+s19380
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GLShaderManager.o
+t1298029914
+s14132
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GLTexture.o
+t1298029914
+s16492
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GLViewController.o
+t1298029914
+s46404
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GameObject.o
+t1298029914
+s17976
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GameViewController.o
+t1298029914
+s57360
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/InputController.o
+t1298029914
+s55040
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/Matrix.o
+t1298029914
+s12128
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/Mesh.o
+t1298029914
+s1660
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/MeshModel.o
+t1298029914
+s8468
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/Particle.o
+t1298029914
+s1560
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/RigidBody.o
+t1298029914
+s5552
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/Vector.o
+t1298029914
+s6020
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/ViewModel.o
+t1298029914
+s19216
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/main.o
+t1298029913
+s6688
+
+N/Users/jmarcus/repos/kandidatprojekt/trunk/main.m
+c000000004D5022010000000000000182
+t1297097217
+s386
+i<UIKit/UIKit.h>
+
+N/var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-egyvizgiguhinwehmzsfevymmiim/GL_Prefix.pch.gch
+t1298029912
+s9979608
+
+N/var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-eilxmxkhbbyjdogfmlcfnqrovfxl/GL_Prefix.pch.gch
+t1298029912
+s1278236
+
+N/var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-fkrldifcdeuyrzefzskowqbjualr/GL_Prefix.pch.gch
+t1298029912
+s1745180
+
+N/var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-hczqmbxlnrwjvrestyaciscrjvzw/GL_Prefix.pch.gch
+t1298029912
+s10442456
+
+NGL-Info.plist
+c000000004D502201000000000000037D
+t1297097217
+s893
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies319722711#319722711#0(0"0(0#1#0"8621452448#0"0#
+
+CCodeSign /Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app
+s319722715.194173
+e319722715.415836
+r1
+xCodeSign
+x/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app
+lSLF07#2@36"CodeSign build/Debug-iphoneos/GL.app319722715#319722715#0(0"0(0#0#70"/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app8620968512#643"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Viktor Holmqvist (2B4Z58BMA5)" --resource-rules=/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app/ResourceRules.plist --entitlements /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL.xcent /Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/BehaveModel.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/BehaveModel.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319722713.448400
+e319722713.553097
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/BehaveModel.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/BehaveModel.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/BehaveModel.m: In function '-[BehaveModel behaviourMovePhysics:]':
+o/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/BehaveModel.m:48: warning: unused variable 'pos'
+lSLF07#2@72"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/BehaveModel.m319722713#319722713#0(218"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/BehaveModel.m: In function '-[BehaveModel behaviourMovePhysics:]':/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/BehaveModel.m:48: warning: unused variable 'pos'1(22@21"Unused variable 'pos'319722713#118#100#0(6@64"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/BehaveModel.m319721401#48#0#48#0#19"unused variable '*'0(0#0#64"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/BehaveModel.m8621672416#1690"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv6 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-egyvizgiguhinwehmzsfevymmiim/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/BehaveModel.m -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/BehaveModel.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/Collision.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Collision.c normal armv6 c com.apple.compilers.gcc.4_2
+s319722713.832978
+e319722713.908569
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/Collision.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Collision.c
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Collision.c319722713#319722713#0(0"0(0#0#62"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Collision.c8621004064#1676"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv6 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-eilxmxkhbbyjdogfmlcfnqrovfxl/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Collision.c -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/Collision.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/EAGLView.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/EAGLView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319722713.061276
+e319722713.283659
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/EAGLView.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/EAGLView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/EAGLView.m319722713#319722713#0(0"0(0#0#61"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/EAGLView.m8626588704#1684"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv6 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-egyvizgiguhinwehmzsfevymmiim/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/EAGLView.m -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/EAGLView.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/ForceGenerator.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/ForceGenerator.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319722713.908675
+e319722713.986798
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/ForceGenerator.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/ForceGenerator.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/ForceGenerator.m319722713#319722713#0(0"0(0#0#67"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/ForceGenerator.m8626253760#1696"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv6 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-egyvizgiguhinwehmzsfevymmiim/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/ForceGenerator.m -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/ForceGenerator.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GLAppDelegate.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319722712.943393
+e319722713.206554
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GLAppDelegate.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLAppDelegate.m319722712#319722713#0(0"0(0#0#66"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLAppDelegate.m8621695808#1694"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv6 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-egyvizgiguhinwehmzsfevymmiim/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLAppDelegate.m -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GLAppDelegate.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GLShader.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLShader.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319722713.333718
+e319722713.416605
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GLShader.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLShader.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLShader.m319722713#319722713#0(0"0(0#0#61"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLShader.m8626370304#1684"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv6 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-egyvizgiguhinwehmzsfevymmiim/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLShader.m -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GLShader.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GLShaderManager.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLShaderManager.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319722713.720269
+e319722713.797831
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GLShaderManager.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLShaderManager.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLShaderManager.m319722713#319722713#0(0"0(0#0#68"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLShaderManager.m8614550848#1698"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv6 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-egyvizgiguhinwehmzsfevymmiim/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLShaderManager.m -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GLShaderManager.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GLTexture.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLTexture.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319722713.416715
+e319722713.519029
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GLTexture.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLTexture.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLTexture.m319722713#319722713#0(0"0(0#0#62"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLTexture.m8621926848#1686"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv6 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-egyvizgiguhinwehmzsfevymmiim/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLTexture.m -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GLTexture.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GLViewController.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319722713.206672
+e319722713.333618
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GLViewController.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLViewController.m319722713#319722713#0(0"0(0#0#69"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLViewController.m8621506752#1700"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv6 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-egyvizgiguhinwehmzsfevymmiim/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLViewController.m -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GLViewController.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GameObject.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GameObject.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319722713.608833
+e319722713.720157
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GameObject.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GameObject.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GameObject.m319722713#319722713#0(0"0(0#0#63"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GameObject.m8621747424#1688"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv6 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-egyvizgiguhinwehmzsfevymmiim/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GameObject.m -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GameObject.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GameViewController.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GameViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319722713.283765
+e319722713.448221
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GameViewController.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GameViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GameViewController.m319722713#319722713#0(0"0(0#0#71"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GameViewController.m8626562784#1704"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv6 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-egyvizgiguhinwehmzsfevymmiim/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GameViewController.m -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GameViewController.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/InputController.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319722713.648526
+e319722713.749450
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/InputController.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m: In function '-[InputController touchesMoved:withEvent:]':
+o/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m:49: warning: unused variable 'prevLocation'
+o/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m:48: warning: unused variable 'touchLocation'
+o/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m:73: warning: unused variable 'delta'
+o/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m: In function '-[InputController touchesEnded:withEvent:]':
+o/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m:101: warning: unused variable 'endPoint'
+lSLF07#2@76"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m319722713#319722713#0(699"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m: In function '-[InputController touchesMoved:withEvent:]':/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m:49: warning: unused variable 'prevLocation'/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m:48: warning: unused variable 'touchLocation'/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m:73: warning: unused variable 'delta'/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m: In function '-[InputController touchesEnded:withEvent:]':/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m:101: warning: unused variable 'endPoint'4(22@30"Unused variable 'prevLocation'319722713#128#113#0(6@68"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m319721401#49#0#49#0#19"unused variable '*'0(22@31"Unused variable 'touchLocation'319722713#241#114#0(6@68"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m319721401#48#0#48#0#19"unused variable '*'0(22@23"Unused variable 'delta'319722713#355#106#0(6@68"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m319721401#73#0#73#0#19"unused variable '*'0(22@26"Unused variable 'endPoint'319722713#589#110#0(6@68"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m319721401#101#0#101#0#19"unused variable '*'0(0#0#68"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m8621536672#1698"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv6 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-egyvizgiguhinwehmzsfevymmiim/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/InputController.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/Matrix.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Matrix.c normal armv6 c com.apple.compilers.gcc.4_2
+s319722713.749551
+e319722713.832880
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/Matrix.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Matrix.c
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Matrix.c319722713#319722713#0(0"0(0#0#59"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Matrix.c8611677120#1670"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv6 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-eilxmxkhbbyjdogfmlcfnqrovfxl/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Matrix.c -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/Matrix.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/Mesh.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Mesh.c normal armv6 c com.apple.compilers.gcc.4_2
+s319722713.519132
+e319722713.550482
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/Mesh.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Mesh.c
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Mesh.c319722713#319722713#0(0"0(0#0#57"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Mesh.c8626563104#1666"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv6 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-eilxmxkhbbyjdogfmlcfnqrovfxl/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Mesh.c -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/Mesh.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/MeshModel.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/MeshModel.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319722713.550590
+e319722713.608731
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/MeshModel.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/MeshModel.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/MeshModel.m319722713#319722713#0(0"0(0#0#62"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/MeshModel.m8623342528#1686"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv6 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-egyvizgiguhinwehmzsfevymmiim/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/MeshModel.m -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/MeshModel.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/Particle.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Particle.c normal armv6 c com.apple.compilers.gcc.4_2
+s319722713.797931
+e319722713.823582
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/Particle.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Particle.c
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Particle.c319722713#319722713#0(0"0(0#0#61"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Particle.c8621442464#1674"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv6 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-eilxmxkhbbyjdogfmlcfnqrovfxl/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Particle.c -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/Particle.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/RigidBody.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/RigidBody.c normal armv6 c com.apple.compilers.gcc.4_2
+s319722713.886011
+e319722713.931763
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/RigidBody.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/RigidBody.c
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/RigidBody.c319722713#319722713#0(0"0(0#0#62"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/RigidBody.c8626567904#1676"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv6 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-eilxmxkhbbyjdogfmlcfnqrovfxl/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/RigidBody.c -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/RigidBody.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/Vector.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Vector.c normal armv6 c com.apple.compilers.gcc.4_2
+s319722713.823687
+e319722713.885905
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/Vector.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Vector.c
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Vector.c319722713#319722713#0(0"0(0#0#59"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Vector.c8621337728#1670"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv6 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-eilxmxkhbbyjdogfmlcfnqrovfxl/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Vector.c -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/Vector.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/ViewModel.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/ViewModel.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319722713.553192
+e319722713.648422
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/ViewModel.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/ViewModel.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/ViewModel.m319722713#319722713#0(0"0(0#0#62"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/ViewModel.m8621867936#1686"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv6 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-egyvizgiguhinwehmzsfevymmiim/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/ViewModel.m -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/ViewModel.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/main.o /Users/jmarcus/repos/kandidatprojekt/trunk/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319722712.942001
+e319722713.061177
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/main.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/main.m319722712#319722713#0(0"0(0#0#49"/Users/jmarcus/repos/kandidatprojekt/trunk/main.m8626168640#1668"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv6 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-egyvizgiguhinwehmzsfevymmiim/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/main.m -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/BehaveModel.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/BehaveModel.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319722714.385735
+e319722714.473435
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/BehaveModel.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/BehaveModel.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/BehaveModel.m: In function '-[BehaveModel behaviourMovePhysics:]':
+o/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/BehaveModel.m:48: warning: unused variable 'pos'
+lSLF07#2@72"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/BehaveModel.m319722714#319722714#0(218"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/BehaveModel.m: In function '-[BehaveModel behaviourMovePhysics:]':/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/BehaveModel.m:48: warning: unused variable 'pos'1(22@21"Unused variable 'pos'319722714#118#100#0(6@64"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/BehaveModel.m319721401#48#0#48#0#19"unused variable '*'0(0#0#64"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/BehaveModel.m8626474784#1698"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv7 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-hczqmbxlnrwjvrestyaciscrjvzw/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/BehaveModel.m -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/BehaveModel.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/Collision.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Collision.c normal armv7 c com.apple.compilers.gcc.4_2
+s319722714.840344
+e319722714.920592
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/Collision.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Collision.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Collision.c319722714#319722714#0(0"0(0#0#62"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Collision.c8621538336#1684"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv7 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-fkrldifcdeuyrzefzskowqbjualr/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Collision.c -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/Collision.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/EAGLView.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/EAGLView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319722714.064475
+e319722714.238616
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/EAGLView.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/EAGLView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/EAGLView.m319722714#319722714#0(0"0(0#0#61"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/EAGLView.m8624577408#1692"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv7 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-hczqmbxlnrwjvrestyaciscrjvzw/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/EAGLView.m -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/EAGLView.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/ForceGenerator.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/ForceGenerator.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319722714.915204
+e319722714.998666
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/ForceGenerator.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/ForceGenerator.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/ForceGenerator.m319722714#319722714#0(0"0(0#0#67"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/ForceGenerator.m8621589248#1704"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv7 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-hczqmbxlnrwjvrestyaciscrjvzw/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/ForceGenerator.m -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/ForceGenerator.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GLAppDelegate.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319722713.995742
+e319722714.126786
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GLAppDelegate.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLAppDelegate.m319722713#319722714#0(0"0(0#0#66"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLAppDelegate.m8621705696#1702"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv7 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-hczqmbxlnrwjvrestyaciscrjvzw/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLAppDelegate.m -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GLAppDelegate.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GLShader.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLShader.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319722714.238715
+e319722714.348671
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GLShader.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLShader.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLShader.m319722714#319722714#0(0"0(0#0#61"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLShader.m8621791488#1692"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv7 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-hczqmbxlnrwjvrestyaciscrjvzw/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLShader.m -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GLShader.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GLShaderManager.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLShaderManager.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319722714.671298
+e319722714.770719
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GLShaderManager.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLShaderManager.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLShaderManager.m319722714#319722714#0(0"0(0#0#68"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLShaderManager.m8621351840#1706"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv7 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-hczqmbxlnrwjvrestyaciscrjvzw/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLShaderManager.m -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GLShaderManager.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GLTexture.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLTexture.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319722714.348775
+e319722714.457883
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GLTexture.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLTexture.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLTexture.m319722714#319722714#0(0"0(0#0#62"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLTexture.m8621240224#1694"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv7 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-hczqmbxlnrwjvrestyaciscrjvzw/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLTexture.m -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GLTexture.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GLViewController.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319722714.126890
+e319722714.231568
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GLViewController.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLViewController.m319722714#319722714#0(0"0(0#0#69"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLViewController.m8621817920#1708"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv7 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-hczqmbxlnrwjvrestyaciscrjvzw/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GLViewController.m -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GLViewController.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GameObject.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GameObject.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319722714.570647
+e319722714.670994
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GameObject.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GameObject.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GameObject.m319722714#319722714#0(0"0(0#0#63"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GameObject.m8626522784#1696"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv7 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-hczqmbxlnrwjvrestyaciscrjvzw/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GameObject.m -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GameObject.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GameViewController.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GameViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319722714.231683
+e319722714.385643
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GameViewController.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GameViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GameViewController.m319722714#319722714#0(0"0(0#0#71"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GameViewController.m8623746656#1712"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv7 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-hczqmbxlnrwjvrestyaciscrjvzw/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/GameViewController.m -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GameViewController.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/InputController.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319722714.618815
+e319722714.733970
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/InputController.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m: In function '-[InputController touchesMoved:withEvent:]':
+o/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m:49: warning: unused variable 'prevLocation'
+o/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m:48: warning: unused variable 'touchLocation'
+o/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m:73: warning: unused variable 'delta'
+o/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m: In function '-[InputController touchesEnded:withEvent:]':
+o/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m:101: warning: unused variable 'endPoint'
+lSLF07#2@76"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m319722714#319722714#0(699"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m: In function '-[InputController touchesMoved:withEvent:]':/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m:49: warning: unused variable 'prevLocation'/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m:48: warning: unused variable 'touchLocation'/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m:73: warning: unused variable 'delta'/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m: In function '-[InputController touchesEnded:withEvent:]':/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m:101: warning: unused variable 'endPoint'4(22@30"Unused variable 'prevLocation'319722714#128#113#0(6@68"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m319721401#49#0#49#0#19"unused variable '*'0(22@31"Unused variable 'touchLocation'319722714#241#114#0(6@68"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m319721401#48#0#48#0#19"unused variable '*'0(22@23"Unused variable 'delta'319722714#355#106#0(6@68"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m319721401#73#0#73#0#19"unused variable '*'0(22@26"Unused variable 'endPoint'319722714#589#110#0(6@68"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m319721401#101#0#101#0#19"unused variable '*'0(0#0#68"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m8621612384#1706"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv7 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-hczqmbxlnrwjvrestyaciscrjvzw/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/InputController.m -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/InputController.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/Matrix.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Matrix.c normal armv7 c com.apple.compilers.gcc.4_2
+s319722714.734073
+e319722714.840243
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/Matrix.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Matrix.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Matrix.c319722714#319722714#0(0"0(0#0#59"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Matrix.c8618115936#1678"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv7 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-fkrldifcdeuyrzefzskowqbjualr/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Matrix.c -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/Matrix.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/Mesh.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Mesh.c normal armv7 c com.apple.compilers.gcc.4_2
+s319722714.457992
+e319722714.497476
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/Mesh.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Mesh.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Mesh.c319722714#319722714#0(0"0(0#0#57"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Mesh.c8621760704#1674"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv7 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-fkrldifcdeuyrzefzskowqbjualr/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Mesh.c -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/Mesh.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/MeshModel.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/MeshModel.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319722714.473540
+e319722714.570546
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/MeshModel.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/MeshModel.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/MeshModel.m319722714#319722714#0(0"0(0#0#62"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/MeshModel.m8620843360#1694"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv7 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-hczqmbxlnrwjvrestyaciscrjvzw/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/MeshModel.m -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/MeshModel.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/Particle.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Particle.c normal armv7 c com.apple.compilers.gcc.4_2
+s319722714.770820
+e319722714.805675
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/Particle.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Particle.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Particle.c319722714#319722714#0(0"0(0#0#61"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Particle.c8624825888#1682"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv7 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-fkrldifcdeuyrzefzskowqbjualr/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Particle.c -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/Particle.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/RigidBody.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/RigidBody.c normal armv7 c com.apple.compilers.gcc.4_2
+s319722714.852080
+e319722714.915106
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/RigidBody.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/RigidBody.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/RigidBody.c319722714#319722714#0(0"0(0#0#62"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/RigidBody.c8620907040#1684"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv7 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-fkrldifcdeuyrzefzskowqbjualr/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/RigidBody.c -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/RigidBody.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/Vector.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Vector.c normal armv7 c com.apple.compilers.gcc.4_2
+s319722714.805773
+e319722714.851981
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/Vector.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Vector.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Vector.c319722714#319722714#0(0"0(0#0#59"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Vector.c8626576224#1678"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv7 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-fkrldifcdeuyrzefzskowqbjualr/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/Vector.c -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/Vector.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/ViewModel.o /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/ViewModel.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319722714.497584
+e319722714.618715
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/ViewModel.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/ViewModel.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/ViewModel.m319722714#319722714#0(0"0(0#0#62"/Users/jmarcus/repos/kandidatprojekt/trunk/Classes/ViewModel.m8612692896#1694"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv7 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-hczqmbxlnrwjvrestyaciscrjvzw/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/Classes/ViewModel.m -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/ViewModel.o0#
+
+CCompileC build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/main.o /Users/jmarcus/repos/kandidatprojekt/trunk/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319722713.931868
+e319722713.995648
+r1
+xCompileC
+xbuild/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/main.o
+x/Users/jmarcus/repos/kandidatprojekt/trunk/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/jmarcus/repos/kandidatprojekt/trunk/main.m319722713#319722713#0(0"0(0#0#49"/Users/jmarcus/repos/kandidatprojekt/trunk/main.m8624113568#1676"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv7 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -include /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-hczqmbxlnrwjvrestyaciscrjvzw/GL_Prefix.pch -c /Users/jmarcus/repos/kandidatprojekt/trunk/main.m -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/main.o0#
+
+CCpResource build/Debug-iphoneos/GL.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s319722711.944662
+e319722711.962565
+r1
+xCpResource
+xbuild/Debug-iphoneos/GL.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist319722711#319722711#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8619905856#497"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app0#
+
+CCpResource build/Debug-iphoneos/GL.app/Shader.fsh Shaders/Shader.fsh
+s319722711.962819
+e319722711.971445
+r1
+xCpResource
+xbuild/Debug-iphoneos/GL.app/Shader.fsh
+xShaders/Shader.fsh
+lSLF07#2@23"Copy Shaders/Shader.fsh319722711#319722711#0(0"0(0#0#61"/Users/jmarcus/repos/kandidatprojekt/trunk/Shaders/Shader.fsh8619439328#469"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jmarcus/repos/kandidatprojekt/trunk/Shaders/Shader.fsh /Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app0#
+
+CCpResource build/Debug-iphoneos/GL.app/Shader.vsh Shaders/Shader.vsh
+s319722711.963896
+e319722711.976940
+r1
+xCpResource
+xbuild/Debug-iphoneos/GL.app/Shader.vsh
+xShaders/Shader.vsh
+lSLF07#2@23"Copy Shaders/Shader.vsh319722711#319722711#0(0"0(0#0#61"/Users/jmarcus/repos/kandidatprojekt/trunk/Shaders/Shader.vsh8618208800#469"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jmarcus/repos/kandidatprojekt/trunk/Shaders/Shader.vsh /Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app0#
+
+CCreateUniversalBinary /Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app/GL normal "armv6 armv7"
+s319722715.039632
+e319722715.043850
+r1
+xCreateUniversalBinary
+x/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app/GL
+xnormal
+xarmv6 armv7
+lSLF07#2@73"CreateUniversalBinary build/Debug-iphoneos/GL.app/GL normal "armv6 armv7"319722715#319722715#0(0"0(0#0#54"/Users/jmarcus/repos/kandidatprojekt/trunk/armv6 armv78621291296#494"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GL /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GL -output /Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app/GL0#
+
+CGenerateDSYMFile /Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app.dSYM /Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app/GL
+s319722715.043942
+e319722715.138963
+r1
+xGenerateDSYMFile
+x/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app.dSYM
+x/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app/GL
+lSLF07#2@80"GenerateDSYMFile build/Debug-iphoneos/GL.app.dSYM build/Debug-iphoneos/GL.app/GL319722715#319722715#0(0"0(0#0#73"/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app/GL8620145504#359"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app/GL -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app.dSYM0#
+
+CLd /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GL normal armv6
+s319722713.986897
+e319722714.064379
+r1
+xLd
+x/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GL
+xnormal
+xarmv6
+lSLF07#2@110"Link /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GL319722713#319722714#0(0"0(0#0#0"8621974560#891"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -filelist /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GL.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework OpenGLES -framework QuartzCore -framework CoreGraphics -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv6/GL0#
+
+CLd /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GL normal armv7
+s319722714.998862
+e319722715.039530
+r1
+xLd
+x/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GL
+xnormal
+xarmv7
+lSLF07#2@110"Link /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GL319722714#319722715#0(0"0(0#0#0"8626487584#891"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -filelist /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GL.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework OpenGLES -framework QuartzCore -framework CoreGraphics -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/Objects-normal/armv7/GL0#
+
+CProcessInfoPlistFile /Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app/Info.plist GL-Info.plist
+s319722711.945526
+e319722711.962738
+r1
+xProcessInfoPlistFile
+x/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app/Info.plist
+xGL-Info.plist
+lSLF07#2@21"Process GL-Info.plist319722711#319722711#0(0"0(0#0#56"/Users/jmarcus/repos/kandidatprojekt/trunk/GL-Info.plist8619704416#558"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility GL-Info.plist -genpkginfo /Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app/ResourceRules.plist -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app/Info.plist0#
+
+CProcessPCH /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-egyvizgiguhinwehmzsfevymmiim/GL_Prefix.pch.gch GL_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s319722711.977051
+e319722712.742851
+r1
+xProcessPCH
+x/var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-egyvizgiguhinwehmzsfevymmiim/GL_Prefix.pch.gch
+xGL_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@24"Precompile GL_Prefix.pch319722711#319722712#0(0"0(0#0#56"/Users/jmarcus/repos/kandidatprojekt/trunk/GL_Prefix.pch8618092512#1567"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv6 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -c /Users/jmarcus/repos/kandidatprojekt/trunk/GL_Prefix.pch -o /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-egyvizgiguhinwehmzsfevymmiim/GL_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-eilxmxkhbbyjdogfmlcfnqrovfxl/GL_Prefix.pch.gch GL_Prefix.pch normal armv6 c com.apple.compilers.gcc.4_2
+s319722711.978367
+e319722712.033695
+r1
+xProcessPCH
+x/var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-eilxmxkhbbyjdogfmlcfnqrovfxl/GL_Prefix.pch.gch
+xGL_Prefix.pch
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@24"Precompile GL_Prefix.pch319722711#319722712#0(0"0(0#0#56"/Users/jmarcus/repos/kandidatprojekt/trunk/GL_Prefix.pch8617901664#1557"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv6 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -c /Users/jmarcus/repos/kandidatprojekt/trunk/GL_Prefix.pch -o /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-eilxmxkhbbyjdogfmlcfnqrovfxl/GL_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-fkrldifcdeuyrzefzskowqbjualr/GL_Prefix.pch.gch GL_Prefix.pch normal armv7 c com.apple.compilers.gcc.4_2
+s319722712.743118
+e319722712.856107
+r1
+xProcessPCH
+x/var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-fkrldifcdeuyrzefzskowqbjualr/GL_Prefix.pch.gch
+xGL_Prefix.pch
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@24"Precompile GL_Prefix.pch319722712#319722712#0(0"0(0#0#56"/Users/jmarcus/repos/kandidatprojekt/trunk/GL_Prefix.pch8621324256#1565"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv7 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -c /Users/jmarcus/repos/kandidatprojekt/trunk/GL_Prefix.pch -o /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-fkrldifcdeuyrzefzskowqbjualr/GL_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-hczqmbxlnrwjvrestyaciscrjvzw/GL_Prefix.pch.gch GL_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319722712.033808
+e319722712.941898
+r1
+xProcessPCH
+x/var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-hczqmbxlnrwjvrestyaciscrjvzw/GL_Prefix.pch.gch
+xGL_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@24"Precompile GL_Prefix.pch319722712#319722712#0(0"0(0#0#56"/Users/jmarcus/repos/kandidatprojekt/trunk/GL_Prefix.pch8626554784#1575"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-generated-files.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-own-target-headers.hmap -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-all-target-headers.hmap -iquote /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL-project-headers.hmap -F/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/include -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources/armv7 -I/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/DerivedSources -c /Users/jmarcus/repos/kandidatprojekt/trunk/GL_Prefix.pch -o /var/folders/Qq/QqNo1PtlG80iWQH0a6cBNk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/GL_Prefix-hczqmbxlnrwjvrestyaciscrjvzw/GL_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/jmarcus/Library/MobileDevice/Provisioning Profiles/54158D3E-35D0-431E-ADD2-023316B5C160.mobileprovision" /Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app/embedded.mobileprovision
+s319722696.183000
+e319722696.184702
+r0
+xProcessProductPackaging
+x/Users/jmarcus/Library/MobileDevice/Provisioning Profiles/54158D3E-35D0-431E-ADD2-023316B5C160.mobileprovision
+x/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app/embedded.mobileprovision
+lSLF07#2@189"ProcessProductPackaging "/Users/jmarcus/Library/MobileDevice/Provisioning Profiles/54158D3E-35D0-431E-ADD2-023316B5C160.mobileprovision" build/Debug-iphoneos/GL.app/embedded.mobileprovision319722696#319722696#0(165"<com.apple.tools.product-pkg-utility>: error: class '(null)' of input object does not respond to either selector writeToFile:options:error: or writeToFile:atomically1(4@165"<com.apple.tools.product-pkg-utility>: error: class '(null)' of input object does not respond to either selector writeToFile:options:error: or writeToFile:atomically319722696#18446744073709551615#0#0(6@0"319722696#0#0#0#0#0"0(0#0#95"/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app/embedded.mobileprovision8619936832#428"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/jmarcus/Library/MobileDevice/Provisioning Profiles/54158D3E-35D0-431E-ADD2-023316B5C160.mobileprovision" -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app/embedded.mobileprovision1#
+
+CProcessProductPackaging "/Users/jmarcus/Library/MobileDevice/Provisioning Profiles/C5B88C6D-20B6-4059-82DC-81CC77379D50.mobileprovision" /Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app/embedded.mobileprovision
+s319722715.139085
+e319722715.140599
+r1
+xProcessProductPackaging
+x/Users/jmarcus/Library/MobileDevice/Provisioning Profiles/C5B88C6D-20B6-4059-82DC-81CC77379D50.mobileprovision
+x/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app/embedded.mobileprovision
+lSLF07#2@189"ProcessProductPackaging "/Users/jmarcus/Library/MobileDevice/Provisioning Profiles/C5B88C6D-20B6-4059-82DC-81CC77379D50.mobileprovision" build/Debug-iphoneos/GL.app/embedded.mobileprovision319722715#319722715#0(0"0(0#0#95"/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app/embedded.mobileprovision8619398080#428"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/jmarcus/Library/MobileDevice/Provisioning Profiles/C5B88C6D-20B6-4059-82DC-81CC77379D50.mobileprovision" -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL.xcent
+s319722715.146911
+e319722715.194095
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL.xcent
+lSLF07#2@160"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/GL.build/Debug-iphoneos/GL.build/GL.xcent319722715#319722715#0(0"0(0#0#90"/Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL.xcent8621170208#425"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/jmarcus/repos/kandidatprojekt/trunk/build/GL.build/Debug-iphoneos/GL.build/GL.xcent0#
+
+CTouch /Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app
+s319722715.140673
+e319722715.146145
+r1
+xTouch
+x/Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app
+lSLF07#2@76"Touch /Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app319722715#319722715#0(0"0(0#0#0"8618166592#267"    cd /Users/jmarcus/repos/kandidatprojekt/trunk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/jmarcus/repos/kandidatprojekt/trunk/build/Debug-iphoneos/GL.app0#
+
